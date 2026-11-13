@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Editors
+.idea/
+.vscode/
+
+# Trained model artifacts and run outputs.
+# These are produced by the scripts below and are too large to version;
+# regenerate them by running the pipeline (see README).
+PreTrainedGenerator/
+WarmedDiscriminator/
+CleanURLNET/
+CleanURLNET_*/
+AdversarialLoop*/
+DRL_defer_v1*/
+DRL_defer_v2*/
+GAN_PPO_output*/
+output/
+checkpoints/
+*.pt
+*.zip

@@ -1,0 +1,16 @@
+# Python 3.10 recommended. Versions below match the environment used for the experiments.
+# PyTorch is listed as the CPU/base build; for GPU install the matching CUDA build from
+# https://pytorch.org (the experiments used torch 2.0.0 + CUDA 11.8).
+torch==2.0.0
+transformers==4.30.2
+stable-baselines3==2.1.0
+gymnasium==0.28.1
+datasets==4.0.0
+scikit-learn==1.3.0
+pandas==2.0.3
+numpy==1.23.5
+tqdm==4.70.1
+
+# Only required by the scripts in archive/ (they use the TRL PPOTrainer).
+# Not needed to run the main pipeline.
+trl==0.21.0
